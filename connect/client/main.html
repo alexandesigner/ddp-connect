@@ -1,0 +1,26 @@
+<head>
+  <title>Connect DDP</title>
+</head>
+
+<body>
+
+  {{> list }}
+  {{> button }}
+
+</body>
+
+<template name="list">
+  {{#each list}}
+    <ul>
+      <li>{{ teste }}</li>
+    </ul>
+  {{/each}}
+</template>
+
+<template name="button">
+    <table>
+        <tr id="save">
+            <td>save</td>
+        </tr>
+    </table>
+</template>
