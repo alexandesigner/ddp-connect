@@ -10,32 +10,30 @@
 </body>
 
 <template name="list1">
-    <table>
-        <tr id="save1">
-            <td>save 1</td>
-        </tr>
-    </table>
-    <div>
-        LIST 1
-        {{#each list1}}
-          <ul>
-            <li>{{ teste }}</li>
-          </ul>
-        {{/each}}
+    <div class="list-model">
+      <button type="button" id="save1">
+        save 1
+      </button>
+      <div>
+          LIST 1
+          {{#each list1}}
+            <ul>
+              <li>{{ teste }}</li>
+            </ul>
+          {{/each}}
+      </div>
     </div>
 </template>
 <template name="list2">
-    <table>
-        <tr id="save2">
-            <td>save 2</td>
-        </tr>
-    </table>
-    <div>
-        LIST 2
-        {{#each list2}}
-          <ul>
-            <li>{{ teste }}</li>
-          </ul>
-        {{/each}}
+    <div class="list-model">
+      <button type="button" id="save2">save 2</button>
+      <div>
+          LIST 2
+          {{#each list2}}
+            <ul>
+              <li>{{ teste }}</li>
+            </ul>
+          {{/each}}
+      </div>
     </div>
 </template>

@@ -1,1 +1,5 @@
 /* CSS declarations go here */
+.list-model {
+  float:left;
+  width:50%;
+}
