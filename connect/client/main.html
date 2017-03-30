@@ -4,23 +4,38 @@
 
 <body>
 
-  {{> list }}
-  {{> button }}
+  {{> list1 }}
+  {{> list2 }}
 
 </body>
 
-<template name="list">
-  {{#each list}}
-    <ul>
-      <li>{{ teste }}</li>
-    </ul>
-  {{/each}}
-</template>
-
-<template name="button">
+<template name="list1">
     <table>
-        <tr id="save">
-            <td>save</td>
+        <tr id="save1">
+            <td>save 1</td>
         </tr>
     </table>
+    <div>
+        LIST 1
+        {{#each list1}}
+          <ul>
+            <li>{{ teste }}</li>
+          </ul>
+        {{/each}}
+    </div>
+</template>
+<template name="list2">
+    <table>
+        <tr id="save2">
+            <td>save 2</td>
+        </tr>
+    </table>
+    <div>
+        LIST 2
+        {{#each list2}}
+          <ul>
+            <li>{{ teste }}</li>
+          </ul>
+        {{/each}}
+    </div>
 </template>
